@@ -1,4 +1,4 @@
-{& extends "layout.html" &}
+{% extends "layout.html" %}
 
 <!-- templates/employer.html -->
 {% block content %}
@@ -24,10 +24,10 @@
         <div class="media-content">
           <div class="content">
             <p>
-              <strong> title </strong>
-              <small> status </small>
-              <small> date </small>
-              review
+              <strong> review['title'] </strong>
+              <small> review['status'] </small>
+              <small> review['date'] </small>
+              review['review']
             </p>
           </div>
         </div>
